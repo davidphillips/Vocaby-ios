@@ -82,9 +82,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             else {
                 return ""
             }
-            
-            // Initialize Parse.
-            //Parse.setApplicationId(applicationId!, clientKey: clientKey!)
         }
         else {
             return ""
@@ -105,10 +102,6 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             else {
                 return ""
             }
-            
-            
-            // Initialize Parse.
-            //Parse.setApplicationId(applicationId!, clientKey: clientKey!)
         }
         else {
             return ""
