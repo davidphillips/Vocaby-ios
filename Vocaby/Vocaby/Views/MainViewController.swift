@@ -49,6 +49,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             do {
                 if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String : Any] {
                     print("Converting...")
+                    print("json: \(json["results"] as? [String : Any])")
                     if let results = json["results"] as? [String : Any] {
                         let id = results["id"]
                         print("test id: \(id)")
