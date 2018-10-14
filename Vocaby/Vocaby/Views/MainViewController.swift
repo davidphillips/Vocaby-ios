@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RxSwift
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, VocabyAlertViewDelegate {
     
@@ -24,7 +25,20 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         wordOfTheDayView.backgroundColor = UIColor.vocabyLightRed()
         
-        testCall()
+        //testCall()
+        rxTest()
+    }
+    
+    func rxTest() {
+        let scheduler = SerialDispatchQueueScheduler(qos: .default)
+        let subscription = Observable<Int>.interval(0.3, scheduler: scheduler)
+            .subscribe { event in
+                print(event)
+        }
+        
+        Thread.sleep(forTimeInterval: 2.0)
+        
+        subscription.dispose()
     }
     
     func testCall() {

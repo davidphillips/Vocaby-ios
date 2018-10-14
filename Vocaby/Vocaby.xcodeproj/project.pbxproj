@@ -29,6 +29,9 @@
 		102E236A211699ED00697A6B /* VocabyAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102E2369211699ED00697A6B /* VocabyAlertView.swift */; };
 		106C8BF12117375D009CDEE3 /* VocabyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106C8BF02117375D009CDEE3 /* VocabyWord.swift */; };
 		1097A0A021437C0C0025A6E8 /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1097A09F21437C0C0025A6E8 /* keys.plist */; };
+		4B4131E842DEB9426E1C061B /* Pods_VocabyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84257B316DF11476AC733CCB /* Pods_VocabyUITests.framework */; };
+		4D6E010EBD0D98533C237A47 /* Pods_VocabyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E943370CFD3DAA4B0B41F5F1 /* Pods_VocabyTests.framework */; };
+		633372094C2A8B596979BC36 /* Pods_Vocaby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24072CC454B1A445C5D4DE5F /* Pods_Vocaby.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,15 @@
 		102E2369211699ED00697A6B /* VocabyAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabyAlertView.swift; sourceTree = "<group>"; };
 		106C8BF02117375D009CDEE3 /* VocabyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabyWord.swift; sourceTree = "<group>"; };
 		1097A09F21437C0C0025A6E8 /* keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		1D8D9C8E30D8E60CE8118C4E /* Pods-VocabyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VocabyTests/Pods-VocabyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24072CC454B1A445C5D4DE5F /* Pods_Vocaby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vocaby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF933C000B4A5509A01DADC /* Pods-VocabyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VocabyUITests/Pods-VocabyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8182BEE535F2E11CE64596BC /* Pods-VocabyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VocabyTests/Pods-VocabyTests.release.xcconfig"; sourceTree = "<group>"; };
+		84257B316DF11476AC733CCB /* Pods_VocabyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocabyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D67AE30FAA6E66ECFBA70C0 /* Pods-VocabyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VocabyUITests/Pods-VocabyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8679E08F48ACAE560C8BC3E /* Pods-Vocaby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vocaby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vocaby/Pods-Vocaby.debug.xcconfig"; sourceTree = "<group>"; };
+		DD07DC31A19B83404A0568B7 /* Pods-Vocaby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vocaby.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vocaby/Pods-Vocaby.release.xcconfig"; sourceTree = "<group>"; };
+		E943370CFD3DAA4B0B41F5F1 /* Pods_VocabyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocabyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633372094C2A8B596979BC36 /* Pods_Vocaby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6E010EBD0D98533C237A47 /* Pods_VocabyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4131E842DEB9426E1C061B /* Pods_VocabyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,8 @@
 				102E23462115758000697A6B /* VocabyTests */,
 				102E23512115758000697A6B /* VocabyUITests */,
 				102E232D2115757D00697A6B /* Products */,
+				CBFFFAF82DEA0954D5393118 /* Pods */,
+				56416D5CD3F38F2835C80D2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,6 +251,29 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
+		56416D5CD3F38F2835C80D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24072CC454B1A445C5D4DE5F /* Pods_Vocaby.framework */,
+				E943370CFD3DAA4B0B41F5F1 /* Pods_VocabyTests.framework */,
+				84257B316DF11476AC733CCB /* Pods_VocabyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBFFFAF82DEA0954D5393118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8679E08F48ACAE560C8BC3E /* Pods-Vocaby.debug.xcconfig */,
+				DD07DC31A19B83404A0568B7 /* Pods-Vocaby.release.xcconfig */,
+				1D8D9C8E30D8E60CE8118C4E /* Pods-VocabyTests.debug.xcconfig */,
+				8182BEE535F2E11CE64596BC /* Pods-VocabyTests.release.xcconfig */,
+				9D67AE30FAA6E66ECFBA70C0 /* Pods-VocabyUITests.debug.xcconfig */,
+				6BF933C000B4A5509A01DADC /* Pods-VocabyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 102E23572115758000697A6B /* Build configuration list for PBXNativeTarget "Vocaby" */;
 			buildPhases = (
+				DF977759E3A4DC1706247EC7 /* [CP] Check Pods Manifest.lock */,
 				102E23282115757D00697A6B /* Sources */,
 				102E23292115757D00697A6B /* Frameworks */,
 				102E232A2115757D00697A6B /* Resources */,
+				59C454685A11D3B452C44840 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 102E235A2115758000697A6B /* Build configuration list for PBXNativeTarget "VocabyTests" */;
 			buildPhases = (
+				4FCD36E5E72520CC7F432F0A /* [CP] Check Pods Manifest.lock */,
 				102E233F2115758000697A6B /* Sources */,
 				102E23402115758000697A6B /* Frameworks */,
 				102E23412115758000697A6B /* Resources */,
+				E6A0FCF0419778625576C8FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 102E235D2115758000697A6B /* Build configuration list for PBXNativeTarget "VocabyUITests" */;
 			buildPhases = (
+				AA2AFC85B6C82934D64A8B9D /* [CP] Check Pods Manifest.lock */,
 				102E234A2115758000697A6B /* Sources */,
 				102E234B2115758000697A6B /* Frameworks */,
 				102E234C2115758000697A6B /* Resources */,
@@ -360,6 +405,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FCD36E5E72520CC7F432F0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VocabyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C454685A11D3B452C44840 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vocaby/Pods-Vocaby-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vocaby/Pods-Vocaby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2AFC85B6C82934D64A8B9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VocabyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF977759E3A4DC1706247EC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vocaby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A0FCF0419778625576C8FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VocabyTests/Pods-VocabyTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocabyTests/Pods-VocabyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		102E23282115757D00697A6B /* Sources */ = {
@@ -552,6 +696,7 @@
 		};
 		102E23582115758000697A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8679E08F48ACAE560C8BC3E /* Pods-Vocaby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -570,6 +715,7 @@
 		};
 		102E23592115758000697A6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD07DC31A19B83404A0568B7 /* Pods-Vocaby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,6 +734,7 @@
 		};
 		102E235B2115758000697A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8D9C8E30D8E60CE8118C4E /* Pods-VocabyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -609,6 +756,7 @@
 		};
 		102E235C2115758000697A6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8182BEE535F2E11CE64596BC /* Pods-VocabyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -630,6 +778,7 @@
 		};
 		102E235E2115758000697A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D67AE30FAA6E66ECFBA70C0 /* Pods-VocabyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -650,6 +799,7 @@
 		};
 		102E235F2115758000697A6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF933C000B4A5509A01DADC /* Pods-VocabyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
