@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import RxSwift
+//import RxSwift
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, VocabyAlertViewDelegate {
     
@@ -30,6 +30,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func rxTest() {
+        /*
         let scheduler = SerialDispatchQueueScheduler(qos: .default)
         let subscription = Observable<Int>.interval(0.3, scheduler: scheduler)
             .subscribe { event in
@@ -39,6 +40,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         Thread.sleep(forTimeInterval: 2.0)
         
         subscription.dispose()
+ */
     }
     
     func testCall() {
