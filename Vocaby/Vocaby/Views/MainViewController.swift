@@ -159,6 +159,11 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.textLabel?.text = wordArray.reversed()[indexPath.row].word
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let word = wordArray.reversed()[indexPath.row].word
+        print("word: \(word!)")
+    }
 
 
 }
